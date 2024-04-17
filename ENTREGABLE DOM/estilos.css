@@ -1,0 +1,35 @@
+body {
+  font-family: courier, sans-serif;
+  background-color:rgba(10, 10, 15, 0.914);
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-size: large;
+}
+
+button {
+  background-color:crimson;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#productosDisponibles, #productosAgotados, #carritoDeCompras {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color:black;
+  text-align: left;
+  color:white;
+}
+
+#carritoDeCompras {
+  display: none;
+}
